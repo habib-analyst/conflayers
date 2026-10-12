@@ -1,4 +1,0 @@
-START 2026-10-12T15:52:32Z — PROJECT #28 conflayers
-DESIGN (2026-10-12): set-valued layers = interval propagation with learned per-layer slack; compiler maps nn.Sequential -> interval form; final label sets via could-be-argmax on logit intervals; split-conformal calibration on margin score gives finite-sample 1-alpha; training minimizes differentiable set-size surrogate under coverage Lagrangian. Distinction vs CCI (pipeline stages, not intra-net layers) and IBP (adversarial bounds, not statistical coverage) documented for paper.
-UNIT: 2026-10-12 — 11/11 tests green (interval exactness proven vs brute force, compiler mapping, could-be-argmax sets, split-conformal validity). Experiment launched detached.
-END 2026-10-12 ~21:30 PKT — DONE (conditional pass). 11/11 tests. Paper + README + LinkedIn draft complete. Payload staged at hidden_files/conflayers/ (exclude venv/, results/*.pt, results/*.done).
