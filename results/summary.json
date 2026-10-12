@@ -1,0 +1,34 @@
+{
+ "breastmnist": {
+  "dataset": "breastmnist",
+  "alpha": 0.1,
+  "point_test_acc": 0.75,
+  "compiled": {
+   "q_hat": -21.457744598388672,
+   "coverage": 0.8717948717948718,
+   "mean_set_size": 1.6730769230769231,
+   "n": 156
+  },
+  "aps_baseline": {
+   "q_hat": 1.0,
+   "coverage": 0.9871794871794872,
+   "mean_set_size": 1.9743589743589745
+  }
+ },
+ "pneumoniamnist": {
+  "dataset": "pneumoniamnist",
+  "alpha": 0.1,
+  "point_test_acc": 0.8509615384615384,
+  "compiled": {
+   "q_hat": -44.65570831298828,
+   "coverage": 0.7916666666666666,
+   "mean_set_size": 1.171474358974359,
+   "n": 624
+  },
+  "aps_baseline": {
+   "q_hat": 0.9999786019325256,
+   "coverage": 0.8092948717948718,
+   "mean_set_size": 0.9535256410256411
+  }
+ }
+}
